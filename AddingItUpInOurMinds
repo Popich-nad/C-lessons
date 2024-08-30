@@ -1,0 +1,24 @@
+#include <iostream> 
+
+int main() {
+
+  int firstNum;
+  int secondNum;
+  int summ;
+  
+  std::cout << "Enter the first number: ";
+  std::cin >> firstNum;
+  std::cout << "Enter the second number: ";
+  std::cin >> secondNum;
+  std::cout << "Enter the summ: ";
+  std::cin >> summ;
+  std::cout << "-----Проверяем-----\n";
+  if (firstNum + secondNum == summ) {
+    std::cout << "Верно! " << summ << "\n";
+  }
+  else {
+    std::cout << "Неверно! " << firstNum + secondNum << "\n";
+  }
+    
+  
+}
