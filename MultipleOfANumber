@@ -1,0 +1,16 @@
+#include <iostream> 
+
+int main() {
+int firstNum;
+int secondNum;
+std::cout << "Enter the first number: ";
+  std::cin >> firstNum;
+  std::cout << "Enter the second number: ";
+  std::cin >> secondNum;
+  if (firstNum % secondNum) {
+    std::cout << "Нет, " << firstNum << " не делится на " << secondNum << " без остатка!";
+    }
+  else {
+    std::cout << "Да, " << firstNum << " делится на " << secondNum << " без остатка!";
+      }
+  }
