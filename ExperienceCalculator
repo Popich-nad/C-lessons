@@ -1,0 +1,22 @@
+#include <iostream> 
+
+int main() {
+int exp;
+int level = 1;
+
+  
+  std::cout << "Enter your exp: ";
+  std::cin >> exp;
+  if (exp <= 999){
+    std::cout << "Your level: " << level;
+  }
+    else if (exp <= 2499 ) {
+    std::cout << "Your level: " << level + 1;
+    }
+    else if (exp <= 4999) {
+    std::cout << "Your level: " << level + 2;
+  }
+    else if (exp >= 5000) {
+    std::cout << "Your level: " << level + 3;
+  }
+}
