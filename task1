@@ -1,0 +1,20 @@
+#include <iostream> 
+
+int main() {
+
+  int firstNum;
+  int secondNum;
+  std::cout << "Enter the first number: ";
+  std::cin >> firstNum;
+  std::cout << "Enter the second number: ";
+  std::cin >> secondNum;
+  std::cout << "-----Проверяем-----\n";
+  if (firstNum > secondNum) {
+    std::cout << "Наименьшее число: " << secondNum << "\n";
+  }
+  else {
+    std::cout << "Наименьшее число: " << firstNum << "\n";
+  }
+    
+  
+}
