@@ -1,0 +1,27 @@
+#include <iostream> 
+
+int main() {
+  int mansCount;
+  int barbersCount;
+  int hoursPerDay = 8;
+  int clientsPerhours = 1;
+  int dayPerMonth = 30;
+
+  std::cout << "************** Барбершоп-калькулятор **************\n";
+  std::cout << "Введите число мужчин в городе: ";
+  std::cin >> mansCount;
+
+  std::cout << "Сколько уже барберов удалось нанять? ";
+  std::cin >> barbersCount;
+
+  std::cout << "Количество клиентов, которые могут быть обслужены за месяц: ";
+  
+  int totalClientsPerMonth = barbersCount * hoursPerDay * clientsPerhours * dayPerMonth;
+ std::cout << totalClientsPerMonth << "\n";
+  
+  if (mansCount % totalClientsPerMonth >= mansCount) {
+    std::cout << " Барберов хватает! \n";
+  } else {
+    std::cout <<  "Барберов нехватает!";
+  }
+}
