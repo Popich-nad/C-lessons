@@ -1,0 +1,45 @@
+#include <iostream> 
+
+int main() {
+  int weekDay;
+  
+  std::cout << " |Monday(1)\n |Tuesday(2)\n |Wednesday(3)\n |Thursday(4)\n |Friday(5)\n |Saturday(6)\n |Sunday(7)\n |Введите день недели: ";
+  std::cin >> weekDay;
+  std::cout << " -Вот меню сегодняшнего дня: \n";
+  if (weekDay == 1) {
+    std::cout << " |Салат Цезарь с курицей\n";
+    std::cout << " |Суп Монде\n";
+    std::cout << " |Котлета с пюре\n";
+    std::cout << " |Компот\n";
+  } else if (weekDay == 2) {
+    std::cout << " |Оливье\n";
+    std::cout << " |Пельмени\n";
+    std::cout << " |Суши\n";
+    std::cout << " |Фанки Манки\n";
+  } else if (weekDay == 3) {
+    std::cout << " |Торт Напалеон\n";
+    std::cout << " |Доширак\n";
+    std::cout << " |Курица\n";
+    std::cout << " |Лит Енерджи\n";
+  } else if (weekDay == 4) {
+    std::cout << " |Роллы с рыбой\n";
+    std::cout << " |Красная рыба с соевым соусом\n";
+    std::cout << " |Шпроты\n";
+    std::cout << " |Уха\n";
+  } else if (weekDay == 5) {
+    std::cout << " |Фруктовый салат\n";
+    std::cout << " |Медовые соты\n";
+    std::cout << " |Торт медовик\n";
+    std::cout << " |Кленовый сироп\n";
+  } else if (weekDay == 6) {
+    std::cout << " |Бигмак\n";
+    std::cout << " |Картошка Фри\n";
+    std::cout << " |Двойной чизбургер с сырным соусом\n";
+    std::cout << " |Кола\n";
+  } else if (weekDay == 7) {
+    std::cout << " |Самса с сыром\n";
+    std::cout << " |Пирог с ветчиной и сыром\n";
+    std::cout << " |Кремовый торт с вишневой начинкой и шоколадной стружкой\n";
+    std::cout << " |Кокосовый раф на миндальном молоке с тыквенным сиропом, с тростниковым сахаром и экологоичной бамбуковой сьедобной палочкой для размеивания\n";
+  }
+}
